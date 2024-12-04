@@ -1,0 +1,198 @@
+
+.home-div {
+    background-color: #060A30;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* width: 100%; */
+    height: 100vh;
+}
+
+.nav-dock {
+    padding: 20px 40px;
+    margin: 20px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.35);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    /* width: 80%; */
+}
+
+.nav-dock button {
+    background-color: transparent;
+    color: rgba(255,255,255,0.8);
+    font-size: 40px;
+    padding: 30px;
+    border-radius: 50%;
+    margin: 0 50px;
+    border: none;
+}
+
+.nav-dock button:hover {
+    color: rgba(255,255,255,1);
+}
+
+
+
+.nav-dock button:hover {
+    background-color: rgba();
+}
+
+.detect-loc-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Styling for CurrentWeather.js */
+.weather-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.weather-div .weather-info-div h3 {
+    font-size: 180px;
+    margin: 0;
+}
+
+.weather-div .location-div {
+    font-size: 20px;
+}
+
+.weather-div .location-div span {
+    margin: 10px;
+}
+
+.weather-div .location-div button {
+    padding: 5px 8px;   
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+/* Styling for Search.js */
+.search-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.search-div .search-box input{
+    padding: 10px 20px;
+    width: 400px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.search-div .search-box button{
+    padding: 10px;
+    margin: 5px;
+}
+
+.search-div .search-dropdown {
+    width: 500px;
+    border: 1px solid black;
+}
+
+/* Styling for SearchCard.js */
+.search-div .search-dropdown .card {
+    background-color: grey;
+    padding: 3px 15px;
+    margin: 2px;
+}
+
+/* Styling for Forecast.js */
+.forecast-div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.metrics-div {
+    margin-top: 30px;
+    max-width: 30%;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.forecast-box {
+    /* background-color: yellow; */
+    width: 30%;
+    padding: 30px 0;
+}
+
+/* Styling for MetricsCard.js */
+.metrics-card {
+    height: 110px;
+    width: 130px;
+    border: 1px solid black;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+/* Styling for ForecastCard.js */
+.forecast-card {
+    background-color: grey;
+    padding: 10px 20px;
+    margin: 2px;
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+    .nav-dock button {
+        font-size: 26px;
+        padding: 20px;
+        margin: 0 30px;
+
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .nav-dock {
+        padding: 10px;
+    }
+
+    .nav-dock button {
+        padding: 10px;
+        font-size: 18px;
+    }
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    border: 1px solid white;
+    padding: 20px;
+}
+
+form input, textarea {
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+form button {
+    margin: 10px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+

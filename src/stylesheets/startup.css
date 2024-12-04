@@ -1,0 +1,35 @@
+
+
+.startup-div {
+    background-color: #060A30;
+    color: #FFF;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.startup-div h2{
+    font-size: 44px;
+}
+
+.startup-div p {
+    font-size: 22px;
+}
+
+.startup-div h2,
+.startup-div p,
+.startup-div button {
+    margin: 15px;
+}
+
+.startup-div button {
+    background-color: dodgerblue;
+    color: #fff;
+    padding: 15px 35px;
+    border-radius: 25px;
+    border: none;
+    font-size: 16px;
+
+}
