@@ -5,15 +5,27 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
+import CurrentWeather from './mobile/CurrentWeather';
+import Search from './mobile/Search';
+import Forecast from './mobile/Forecast';
+import { WeatherProvider } from './contexts/WeatherContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-    <Routes>
-      <Route path='/' element={<App />}/>
-      <Route path='/home' element={<Home />}/>
-    </Routes>
+
+
+    <WeatherProvider>
+      <Routes>
+        <Route path='/' element={<App />}/>
+        <Route path='/home' element={<Home />}/>
+        <Route path="/current-weather" element={<CurrentWeather />} />
+        <Route path="/forecast" element={<Forecast />} />
+        <Route path="/search" element={<Search />} />
+      </Routes>
+    </WeatherProvider>
+    
     
     </BrowserRouter>
   </React.StrictMode>

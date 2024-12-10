@@ -1,0 +1,142 @@
+
+/* Styling for main container */
+
+.main-div-m {
+    /* background-color: #060A30;
+    color: white; */
+    /* background-color: pink; */
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    /* min-height: 90vh; */
+}
+
+/* Styling for CurrentWeather.js */
+.weather-div-m {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: aqua; */
+}
+
+.weather-div-m .weather-info-div-m h3 {
+    font-size: 160px;
+    margin: 0;
+}
+
+.weather-div-m .location-div-m {
+    font-size: 20px;
+}
+
+.weather-div-m .location-div-m span {
+    margin: 10px;
+}
+
+.weather-div-m .location-div-m button {
+    padding: 5px 8px;   
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.weather-div-m .weather-info-div-m .small-font-m {
+    font-size: 30px;
+    margin: 20px;
+}
+
+/* Styling for Search.js */
+.search-div-m {
+    /* background-color: red; */
+    padding: 10px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.search-div-m .search-box-m {
+    /* background-color: yellow; */
+    padding:  0 30px;
+    width: 100%;
+}
+
+.search-div-m .search-box-m input {
+    padding: 20px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.search-div-m .search-dropdown-m {
+    /* background-color: pink; */
+    padding: 0 30px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.search-div-m .search-dropdown-m .search-card-m {
+    background-color: lightgray;
+    padding: 20px 10px;
+    width: 100%;
+    margin: 2px 0;
+}
+
+.search-div-m .search-dropdown-m .search-card-m span {
+    margin: 10px;   
+    font-size: 20px;
+}
+
+.forecast-div-m {
+    padding: 40px;
+    /* background-color: red; */
+    width: 100%;
+    height: 100%;
+}
+
+.forecast-div-m {
+    margin: 20px 0;
+}
+
+.forecast-div-m .forecast-card-holder {
+    margin-top: 40px;
+}
+
+.forecast-div-m .forecast-card-holder .forecast-card-m {
+    padding: 10px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2px 0;
+}
+
+.forecast-div-m .forecast-card-holder .forecast-card-m .card-time-m {
+    padding: 10px;
+    /* background-color: magenta; */
+    width: 70%;
+}
+
+.forecast-div-m .forecast-card-holder .forecast-card-m .card-weather-m {
+    padding: 10px;
+    /* background-color: teal; */
+    /* width: 30%; */
+}
+
+@media only screen and (max-width: 550px) {
+    .weather-div-m .weather-info-div-m h3 {
+        font-size: 120px;
+    }
+
+    .weather-div-m .weather-info-div-m .small-font-m {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .weather-div-m .weather-info-div-m h3 {
+        font-size: 90px;
+    }
+}
