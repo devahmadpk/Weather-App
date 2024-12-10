@@ -1,0 +1,127 @@
+
+/* Styling for DesktopLayout.js */
+
+.main-div {
+    /* background-color: #060A30;
+    color: white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* width: 100%; */
+    min-height: 100vh;
+}
+
+/* Styling for CurrentWeather.js */
+.weather-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.weather-div .weather-info-div h3 {
+    font-size: 180px;
+    margin: 0;
+}
+
+.weather-div .location-div {
+    font-size: 20px;
+}
+
+.weather-div .location-div span {
+    margin: 10px;
+}
+
+.weather-div .location-div button {
+    padding: 5px 8px;   
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.weather-div .weather-info-div .small-font {
+    font-size: 30px;
+    margin: 20px;
+}
+
+/* Styling for Search.js */
+.search-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+
+.search-div .search-box input{
+    padding: 10px 20px;
+    width: 400px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.search-div .search-box button{
+    padding: 10px;
+    margin: 5px;
+}
+
+.search-div .search-dropdown {
+    width: 500px;
+    border: 1px solid grey;
+    position: absolute;
+    top: 100%;
+}
+
+/* Styling for SearchCard.js */
+.search-div .search-dropdown .card {
+    background-color: #F5F5F5;
+    padding: 10px 15px;
+    border: 1px solid grey;
+}
+
+/* Styling for Forecast.js */
+.forecast-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;    
+}
+
+/* Styling for ForecastCard.js */
+.forecast-card {
+    /* background-color: grey; */
+    padding: 10px 20px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 150px;
+    min-height: 150px;
+
+}
+
+@media only screen and (max-width: 920px) {
+
+    .weather-div .weather-info-div h3 {
+        font-size: 140px;
+    }
+
+    .weather-div .location-div {
+        font-size: 18px;
+    }
+
+    .forecast-div {
+        flex-wrap: wrap;
+        /* background-color: pink; */
+        padding: 10px 20px;
+        width: 80%;    
+    }
+    
+    /* Styling for ForecastCard.js */
+    .forecast-card {
+        margin: 10px 20px;
+        width: 180px;
+    }
+}

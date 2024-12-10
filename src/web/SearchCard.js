@@ -1,3 +1,5 @@
+
+
 import React from 'react';
 
 const SearchCard = ({ city, country, lat, lon, onSelect }) => {
