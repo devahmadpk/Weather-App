@@ -16,6 +16,8 @@
 
 .startup-div p {
     font-size: 22px;
+    text-align: center;
+    width: 90%;
 }
 
 .startup-div h2,
@@ -31,5 +33,29 @@
     border-radius: 25px;
     border: none;
     font-size: 16px;
+}
 
+@media only screen and (max-width: 800px) {
+    .startup-div h2{
+        font-size: 36px;
+    }
+    
+    .startup-div p {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .startup-div h2{
+        font-size: 30px;
+    }
+    
+    .startup-div p {
+        font-size: 18px;
+        width: 70%;
+    }
+
+    .startup-div button {   
+        padding: 10px 25px;
+    }
 }
