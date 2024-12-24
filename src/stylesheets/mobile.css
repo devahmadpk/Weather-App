@@ -68,6 +68,7 @@
     padding: 20px;
     width: 100%;
     border-radius: 5px;
+    background: #1E1E1E;
 }
 
 .search-div-m .search-dropdown-m {
@@ -75,6 +76,7 @@
     padding: 0 30px;
     width: 100%;
     margin-top: 10px;
+    background: #1E1E1E;
 }
 
 .search-div-m .search-dropdown-m .search-card-m {
@@ -82,11 +84,17 @@
     padding: 20px 10px;
     width: 100%;
     margin: 2px 0;
+    background: #1E1E1E;
 }
 
 .search-div-m .search-dropdown-m .search-card-m span {
     margin: 10px;   
     font-size: 20px;
+    background-color: transparent;
+}
+
+.search-div-m .search-dropdown-m .search-card-m p {
+    background-color: transparent;
 }
 
 .forecast-div-m {
@@ -111,17 +119,24 @@
     justify-content: space-between;
     align-items: center;
     margin: 2px 0;
+    background: #1E1E1E;
 }
 
 .forecast-div-m .forecast-card-holder .forecast-card-m .card-time-m {
     padding: 10px;
-    /* background-color: magenta; */
+    background-color: transparent;
     width: 70%;
 }
 
 .forecast-div-m .forecast-card-holder .forecast-card-m .card-weather-m {
     padding: 10px;
-    /* background-color: teal; */
+    background-color: transparent;
+    /* width: 30%; */
+}
+
+.forecast-div-m .forecast-card-holder .forecast-card-m .card-weather-m span,
+.forecast-div-m .forecast-card-holder .forecast-card-m .card-time-m span {
+    background-color: transparent;
     /* width: 30%; */
 }
 

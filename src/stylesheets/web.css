@@ -61,11 +61,15 @@
     width: 400px;
     margin: 5px;
     border-radius: 5px;
+    background-color: #1E1E1E;
 }
 
 .search-div .search-box button{
-    padding: 10px;
+    padding: 10px 15px;
     margin: 5px;
+    background-color: #1E1E1E;
+    border-radius: 5px;
+
 }
 
 .search-div .search-dropdown {
@@ -73,6 +77,7 @@
     border: 1px solid grey;
     position: absolute;
     top: 100%;
+    background-color: #1E1E1E; 
 }
 
 /* Styling for SearchCard.js */
@@ -80,6 +85,11 @@
     background-color: #F5F5F5;
     padding: 10px 15px;
     border: 1px solid grey;
+    background-color: #1E1E1E;
+}
+
+.search-div .search-dropdown .card p {
+    background-color: transparent;
 }
 
 /* Styling for Forecast.js */
@@ -98,9 +108,21 @@
     border: 1px solid black;
     border-radius: 5px;
     width: 150px;
-    min-height: 150px;
-
+    background-color: #1E1E1E;
 }
+
+.forecast-card span {
+    margin: 15px 0;
+    display: inline-block;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+.forecast-card p {
+    background-color: transparent;
+    margin: 5px 0;
+}
+
 
 @media only screen and (max-width: 920px) {
 
