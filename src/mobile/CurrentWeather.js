@@ -58,7 +58,7 @@ const CurrentWeather = ({latitude, longitude}) => {
         <>
           <div className="weather-info-div-m">
             <h3 className={weather ? "" : "small-font-m"}>
-              {weather ? `${weather.main.temp}°` : "Location unable to fetch"}
+              {weather ? `${Math.floor(weather.main.temp)}°` : "Location unable to fetch"}
             </h3>
           </div>
 

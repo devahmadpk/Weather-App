@@ -30,11 +30,8 @@ const Forecast = () => {
           return (
             <ForecastCard
               key={forecast.dt}
-              day={day}
               time={time}
-              temperature={forecast.main.temp}
-              description={forecast.weather[0].description}
-              icon={forecast.weather[0].icon}
+              temperature={Math.floor(forecast.main.temp)}
             />
           );
         })
